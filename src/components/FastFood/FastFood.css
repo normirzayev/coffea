@@ -1,0 +1,63 @@
+.contenir {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.menyular {
+    width: 28.4vw;
+    height: 40vh ;
+    border-radius: 0.5vw;
+    overflow: hidden;
+    margin: 0.2vw 0.3vw; 
+    position: relative;
+    border: 0.01vw solid #c57c4793;
+    text-align: center;
+}
+.menyular > img{
+    width: 100%;
+    height: 100%;
+}
+.menyular .plus_minus{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+}
+.menyular .plus_minus button{
+    display: flex;
+    width:14.1vw;
+    height: 6vh;
+    font-size: 3vw;
+    align-items: center;
+    justify-content: center;
+    background-color:#c57c47fa;
+    border: 0.2vw solid rgb(255, 252, 252); 
+    color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.menyular .plus_minus :first-child{
+    border-bottom-left-radius:0.5vw;
+}
+.menyular .plus_minus :last-child{
+    border-bottom-right-radius:0.5vw;
+}
+.narxi{
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: rgb(255, 255, 255);
+     width: 29vw;
+     height: 6vh;
+     padding: 0 2vw;
+     font-weight: bold;
+     font-family: sans-serif;
+     font-size: 1.3vw;
+    background: rgba(36, 21, 11, 0.657);
+
+}

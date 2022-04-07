@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 0.5vw;
+  display: flex;
+  align-items: center;
+  background-color: rgb(64, 65, 64);
+}
+.left_section {
+  padding-top: 3vh;
+  width: 16vw;
+  height: 98vh;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f68d315d;
+  background-image: url(../../asets/icons/sariq.jpg);
+  background-size: cover;
+}
+.right_section {
+  width: 84vw;
+  height: 98vh;
+  border-radius: 1vw;
+  display: flex;
+}
+.logo img {
+  width: 15vw;
+  height: 15vh;
+  border-radius: 1vw;
+}
+.rezultat {
+  display: flex;
+  height: 98vh;
+  background: #e97272;
+  border-radius: 1vw;
+  margin: 0 0.5vw;
+  overflow: auto;
+  background-image: url(../../asets/icons/yana.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.left_top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.logo {
+  font-size: 1.7vw;
+  width: 15vw;
+  height: 15vh;
+  line-height: 10vh;
+  border-radius: 1vw;
+  margin: 0 1vw;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.tanlash_tugma {
+  width: 13vw;
+  height: 8vh;
+  margin: 1vw 0;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  box-shadow: 0.3vw 1vw 1vw rgba(5, 5, 5, 0.52);
+  padding: 0 0.7vw;
+}
+.tanlash_tugma img {
+  width: 3vw;
+  margin: 0.5vw;
+}
+.about{
+  width: 13vw;
+  height: 9vh;
+  position: absolute;
+  bottom: 0.5vw;
+  display: flex;
+  justify-content: center;
+  padding: 0vw;
+  font-size: 1.2vw;
+}
+.about > img {
+  width: 3vw;
+  margin: 0.5vw;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  background: #6e411b;
+  color: white;
+}
+.royxat {
+  height: 98vh;
+  background: darkcyan;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../asets/icons/106843-pol-morilka-etazh-drevesina-hlam-1080x1920.jpg);
+
+}
+
+.active {
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
+.xisoblash {
+  position: relative;
+  width: 24vw;
+  height: 80vh;
+  background: rgb(245, 25, 25);
+  border-radius: 0.5vw 0.5vw 0 0;
+  font-size: 2vw;
+  padding: 1vw 2.5vw;
+  background-repeat: no-repeat;
+  background-image: url(../../asets/icons/unnamed.jpg);
+  background-size: cover;
+
+}
+.knopka {
+  width: 24vw;
+  height: 17vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.delete {
+  width: 10vw;
+  height: 10vh;
+  border-radius: 1vw;
+  background: red;
+  border: none;
+  font-size: 1.7vw;
+  color: white;
+}
+.zakaz {
+  width: 10vw;
+  height: 10vh;
+  border-radius: 1vw;
+  background: rgb(29, 96, 240);
+  border: none;
+  font-size: 1.7vw;
+  color: white;
+}
+.suma {
+  width: 24vw;
+  background: white;
+  border-radius: 0 0 1vw 1vw;
+  padding: 0 0 0 0.5vw;
+  font-size: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  font-size: 2.5vw;
+  font-family: "Rajdhani", sans-serif;
+}
+.suma > p {
+  font-size: 2.5vw;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.iconsvg {
+  width: 2.2vw;
+}
+.xisoblash ol li {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.xisoblash ol {
+  display: block;
+  
+}
+
+.opasity {
+  background-color: rgba(0, 0, 0, 0);
+  height: 100%;
+  line-height: 10vh;
+  animation: identifier 0.3s ease 1;
+}
+button {
+  overflow: hidden;
+  animation: click 0.3s 1 ease;
+}
+
+#HisobStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+#HisobStyle > p {
+  font-size: 1.7vw;
+  color: rgb(29, 4, 255);
+  padding-left: 2vw;
+  font-weight: bold;
+  font-family: serif;
+
+}
+
+#HisobStyle > :nth-child(2) {
+  padding-left: 0.5vw;
+  color: rgb(248, 3, 3);
+}
+.opshisuma{
+  display: none;
+}
